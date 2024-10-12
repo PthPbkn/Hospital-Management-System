@@ -4,6 +4,8 @@
     ViewData["Title"] = "ListUsers";
 }
 
+
+
 <h1>ListUsers</h1>
 
 <p>
@@ -36,6 +38,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
+
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
